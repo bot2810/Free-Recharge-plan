@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Your Luck 99% Win - Free Recharge</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Spin and win free mobile recharge! Try your luck with EranMoneySpinBot.">
+</head>
+<body>
+    <!-- Floating Elements for Lottery Atmosphere -->
+    <div class="floating-elements"></div>
+    
+    <!-- Top Banner Ad -->
+    <div class="ad-banner top-banner">
+        <div class="ad-content">🎊 Special Offers Available! 🎊</div>
+    </div>
+
+    <!-- Left Side Ad -->
+    <div class="side-ad left-ad">
+        <div class="side-ad-content">
+            <div class="ad-text">Hot Offers!</div>
+            <div class="ad-emoji">🔥</div>
+        </div>
+    </div>
+
+    <!-- Right Side Ad -->
+    <div class="side-ad right-ad">
+        <div class="side-ad-content">
+            <div class="ad-text">Win Big!</div>
+            <div class="ad-emoji">💰</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1 class="main-heading" id="mainHeading">Try Your Luck – Free Recharge</h1>
+            <div class="operators-display">
+                <div class="operator-badge jio">JIO</div>
+                <div class="operator-badge airtel">AIRTEL</div>
+                <div class="operator-badge vi">VI</div>
+            </div>
+            <p class="subtitle">Spin the wheel and win amazing mobile recharge offers!</p>
+        </header>
+
+        <!-- Video Ad Modal -->
+        <div id="videoAdModal" class="modal">
+            <div class="modal-content">
+                <h3>Watch this ad to spin the wheel</h3>
+                <div class="video-ad-placeholder">
+                    <div class="ad-timer">Ad will end in: <span id="timer">30</span>s</div>
+                    <div class="fake-video-ad">
+                        <p>🎬 Video Advertisement</p>
+                        <p>Amazing offers await you!</p>
+                    </div>
+                </div>
+                <button id="skipAdBtn" class="skip-btn" disabled>Skip Ad</button>
+            </div>
+        </div>
+
+        <!-- Spin Wheel Section -->
+        <div class="spin-section">
+            <div class="wheel-container">
+                <canvas id="wheelCanvas" width="300" height="300"></canvas>
+                <button id="spinBtn" class="spin-button">SPIN NOW!</button>
+            </div>
+        </div>
+
+        <!-- Middle Banner Ad -->
+        <div class="ad-banner middle-banner">
+            <div class="ad-content">Advertisement Space - Middle Banner</div>
+        </div>
+
+        <!-- Result Modal -->
+        <div id="resultModal" class="modal">
+            <div class="modal-content">
+                <h2 id="resultTitle">Better Luck Next Time!</h2>
+                <p>But wait! You've earned a scratch card!</p>
+                <button id="getScratchCard" class="scratch-btn">Get Scratch Card</button>
+            </div>
+        </div>
+
+        <!-- Scratch Card Modal -->
+        <div id="scratchModal" class="modal">
+            <div class="modal-content">
+                <h3>Scratch to reveal your offer!</h3>
+                <div class="scratch-card">
+                    <canvas id="scratchCanvas" width="280" height="200"></canvas>
+                    <div class="scratch-content">
+                        <div class="operator-logo" id="operatorLogo"></div>
+                        <div class="offer-details">
+                            <h4 id="operatorName">Jio</h4>
+                            <div class="price" id="rechargePrice">₹299</div>
+                            <div class="validity" id="validity">28 Days</div>
+                            <div class="data" id="dataOffer">1.5GB/Day</div>
+                        </div>
+                    </div>
+                </div>
+                <button id="claimOffer" class="claim-btn">Claim This Offer</button>
+            </div>
+        </div>
+
+        <!-- Fake Numbers Dashboard -->
+        <div class="winners-dashboard">
+            <h3>🎉 Recent Winners 🎉</h3>
+            <div class="numbers-container">
+                <div id="numbersDisplay" class="numbers-display"></div>
+            </div>
+        </div>
+
+        <!-- Instructions -->
+        <div class="instructions">
+            <h3>How to Play:</h3>
+            <ol>
+                <li>Click "SPIN NOW!" button</li>
+                <li>Watch a 30-second advertisement</li>
+                <li>Spin the wheel for your chance</li>
+                <li>Get a scratch card with exciting offers!</li>
+            </ol>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            <p>Entertainment purpose only</p>
+        </div>
+    </div>
+
+    <!-- Bottom Banner Ad -->
+    <div class="ad-banner bottom-banner">
+        <div class="ad-content">Advertisement Space - Bottom Banner</div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Try Your Luck 99% Win. All rights reserved.</p>
+        <p>Play responsibly. Terms and conditions apply.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
